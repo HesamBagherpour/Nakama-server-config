@@ -1,10 +1,11 @@
 name: nakama-node-1
 data_dir: "./data/"
 
+
 logger:
   stdout: true
   level: 'info'
-  file: 'C:\Users\Hesam\Desktop\Nakama-root\nakama-server-script\data\logfile.log'
+  file: 'C:\Projects\Nakama\Nakama-server-config\Nakama-server-config\Nakama-root\nakama-server-script\data\logfile.log'
            
 metrics:
   reporting_freq_sec: 60
@@ -22,7 +23,7 @@ runtime:
   env:
   - 'example_apikey=example_apivalue'
   - 'encryptionkey=afefa==e332*u13=971mldq'
-  path: 'C:\Users\Hesam\Desktop\Nakama-root\nakama-server-script\data\modules\'
+  path: 'C:\Projects\Nakama\Nakama-server-config\Nakama-server-config\Nakama-root\nakama-server-script\data\modules\'
   http_key: 'defaulthttpkey'
 
 socket:
